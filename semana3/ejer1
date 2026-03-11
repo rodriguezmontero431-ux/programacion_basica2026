@@ -1,0 +1,5 @@
+N=input("dame tu nombre")
+print("hola",N)
+g=int(input("dame tu edad"))
+T=input("dame tu ciudad")
+print("hola",N,"tu edad es",g,"vives en",T)
