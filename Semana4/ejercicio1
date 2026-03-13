@@ -1,0 +1,25 @@
+#Algoritmo
+#Pedir al usuario su nombre.
+#Pedir su edad.
+#Pedir su ciudad de residencia.
+#Mostrar un mensaje con esos datos.
+#Comparar si la edad es mayor o igual a 18.
+#Mostrar el resultado de la comparación.
+#INICIO
+#LEER nombre
+#LEER edad
+#LEER ciudad
+#ESCRIBIR "Hola, me llamo ", nombre
+#ESCRIBIR "Tengo ", edad, " años"
+#ESCRIBIR "Soy de ", ciudad
+#mayorEdad <- edad >= 18
+#ESCRIBIR "Es mayor de edad?: ", mayorEdad
+#FIN
+nombre = input("Ingrese su nombre: ")
+edad = int(input("Ingrese su edad: "))
+ciudad = input("Ingrese su ciudad: ")
+print("Hola, me llamo", nombre)
+print("Tengo", edad, "años")
+print("Soy de", ciudad)
+mayorEdad = edad >= 18
+print("Es mayor de edad?:", mayorEdad)
