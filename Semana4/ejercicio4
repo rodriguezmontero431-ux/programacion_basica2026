@@ -1,0 +1,26 @@
+#Algoritmo
+#Pedir tres notas.
+#Calcular el promedio.
+#Mostrar notas y promedio.
+#Comparar si promedio ≥ 3.0.
+#INICIO
+#LEER nota1
+#LEER nota2
+#LEER nota3
+#promedio <- (nota1 + nota2 + nota3) / 3
+#ESCRIBIR "Nota 1: ", nota1
+#ESCRIBIR "Nota 2: ", nota2
+#ESCRIBIR "Nota 3: ", nota3
+#ESCRIBIR "Promedio: ", promedio
+#aprobo <- promedio >= 3.0
+#ESCRIBIR "Aprobo?: ", aprobo
+#FIN
+nota1 = float(input("Ingrese nota 1: "))
+nota2 = float(input("Ingrese nota 2: "))
+nota3 = float(input("Ingrese nota 3: "))
+promedio = (nota1 + nota2 + nota3) / 3
+print("Nota 1:", nota1)
+print("Nota 2:", nota2)
+print("Nota 3:", nota3)
+print("Promedio:", promedio)
+print("Aprobó?:", promedio >= 3.0)
