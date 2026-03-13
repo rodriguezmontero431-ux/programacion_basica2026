@@ -1,0 +1,24 @@
+#Algoritmo
+#Pedir temperatura en Celsius.
+#Convertir a Fahrenheit.
+#Convertir a Kelvin.
+#Mostrar resultados.
+#Comparar si es mayor a 37.
+#INICIO
+#LEER celsius
+#fahrenheit <- (celsius * 9 / 5) + 32
+#kelvin <- celsius + 273.15
+#ESCRIBIR "Temperatura en Celsius: ", celsius
+#ESCRIBIR "Temperatura en Fahrenheit: ", fahrenheit
+#ESCRIBIR "Temperatura en Kelvin: ", kelvin
+#fiebre <- celsius > 37
+#ESCRIBIR "Supera temperatura de fiebre?: ", fiebre
+#FIN
+celsius = float(input("Ingrese temperatura en Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+kelvin = celsius + 273.15
+print("Temperatura en Celsius:", celsius)
+print("Temperatura en Fahrenheit:", fahrenheit)
+print("Temperatura en Kelvin:", kelvin)
+
+print("Supera temperatura de fiebre?:", celsius > 37)
