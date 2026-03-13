@@ -1,0 +1,38 @@
+#Algoritmo
+#Pedir nombre del producto.
+#Pedir precio.
+#Pedir cantidad.
+#Calcular subtotal.
+#Calcular IVA (19%).
+#Calcular total.
+#Comparar si total > 50000.
+
+#INICIO
+#LEER producto
+#LEER precio
+#LEER cantidad
+#subtotal <- precio * cantidad
+#iva <- subtotal * 0.19
+#total <- subtotal + iva
+#ESCRIBIR "Producto: ", producto
+#ESCRIBIR "Precio: ", precio
+#ESCRIBIR "Cantidad: ", cantidad
+#ESCRIBIR "Subtotal: ", subtotal
+#ESCRIBIR "IVA: ", iva
+#ESCRIBIR "Total: ", total
+#ESCRIBIR "Aplica descuento especial?: ", descuento
+#FIN
+
+producto = input("Nombre del producto: ")
+precio = float(input("Precio unitario: "))
+cantidad = int(input("Cantidad: "))
+subtotal = precio * cantidad
+iva = subtotal * 0.19
+total = subtotal + iva
+print("Producto:", producto)
+print("Precio:", precio)
+print("Cantidad:", cantidad)
+print("Subtotal:", subtotal)
+print("IVA:", iva)
+print("Total:", total)
+print("Aplica descuento especial?:", total > 50000)
