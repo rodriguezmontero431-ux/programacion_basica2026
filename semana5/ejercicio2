@@ -1,0 +1,5 @@
+N=float(input("dame la nota"))
+if N>=3.0:
+  print("pasa la materia")
+else:
+  print("no pasa la materia")
