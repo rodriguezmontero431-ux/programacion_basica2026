@@ -1,0 +1,5 @@
+N=int(input("dame un numero"))
+if N>=0:
+  print("es positivo")
+else:
+  print("es negatigo")
