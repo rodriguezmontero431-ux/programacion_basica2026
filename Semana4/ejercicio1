@@ -1,7 +1,7 @@
 #Algoritmo
-#Pedir al usuario su nombre.
-#Pedir su edad.
-#Pedir su ciudad de residencia.
+#Mostrar al usuario su nombre.
+#Mostrar su edad.
+#Mostrar su ciudad de residencia.
 #Mostrar un mensaje con esos datos.
 #Comparar si la edad es mayor o igual a 18.
 #Mostrar el resultado de la comparación.
@@ -11,6 +11,9 @@ Pseudocódigo
 #LEER nombre
 #LEER edad
 #LEER ciudad
+N=Maria Rodriguez
+E=18
+C=Bogota
 #ESCRIBIR "Hola, me llamo ", nombre
 #ESCRIBIR "Tengo ", edad, " años"
 #ESCRIBIR "Soy de ", ciudad
@@ -18,9 +21,9 @@ Pseudocódigo
 #ESCRIBIR "Es mayor de edad?: ", mayorEdad
 #FIN
 
-nombre = input("Ingrese su nombre: ")
-edad = int(input("Ingrese su edad: "))
-ciudad = input("Ingrese su ciudad: ")
+N= input("Ingrese su nombre: ")
+E= int(input("Ingrese su edad: "))
+C= input("Ingrese su ciudad: ")
 print("Hola, me llamo", nombre)
 print("Tengo", edad, "años")
 print("Soy de", ciudad)
