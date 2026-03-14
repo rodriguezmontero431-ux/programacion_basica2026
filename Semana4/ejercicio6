@@ -5,7 +5,7 @@
 #Calcular IMC.
 #Mostrar resultados.
 #Comparar si está entre 18.5 y 24.9.
-Pseudocódigo
+#Pseudocódigo
 #INICIO
 #LEER nombre
 #LEER peso
