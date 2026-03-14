@@ -6,7 +6,7 @@
 #Calcular IVA (19%).
 #Calcular total.
 #Comparar si total > 50000.
-
+#Pseudocódigo
 #INICIO
 #LEER producto
 #LEER precio
