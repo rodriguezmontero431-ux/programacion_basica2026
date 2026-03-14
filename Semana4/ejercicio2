@@ -3,6 +3,8 @@
 #Calcular suma, resta, multiplicación, división, división entera, residuo y potencia.
 #Mostrar cada resultado.
 #Comparar si la suma es mayor que 100.
+
+#Pseudocódigo
 #INICIO
 #LEER num1
 #LEER num2
