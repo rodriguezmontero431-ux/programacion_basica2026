@@ -6,7 +6,7 @@
 #Comparar si la edad es mayor o igual a 18.
 #Mostrar el resultado de la comparación.
 
-Pseudocódigo
+#Pseudocódigo
 #INICIO
 #LEER nombre
 #LEER edad
