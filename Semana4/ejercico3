@@ -4,6 +4,7 @@
 #Convertir a Kelvin.
 #Mostrar resultados.
 #Comparar si es mayor a 37.
+#Pseudocódigo
 #INICIO
 #LEER celsius
 #fahrenheit <- (celsius * 9 / 5) + 32
