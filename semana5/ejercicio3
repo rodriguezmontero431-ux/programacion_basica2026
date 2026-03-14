@@ -1,0 +1,8 @@
+#programar que evalua mas de una condicion
+S=input("dame el color delk semaforo")
+if S=="verde":
+  print("puede seguir")
+elif S=="rojo":
+  print("detente")
+elif S=="amarillo":
+  print("alerta")
