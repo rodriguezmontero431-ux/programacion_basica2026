@@ -1,0 +1,5 @@
+E=int(input("dame la edad"))
+if E>=18:
+  print("puedes entrar a la discoteca")
+else:
+  print("vayase para su casa")
