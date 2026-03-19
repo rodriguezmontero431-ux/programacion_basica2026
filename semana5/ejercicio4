@@ -1,3 +1,9 @@
+#ALGORITMO
+#ESCRIBE"Dame un numero
+si la edad es < 0 entonces
+#ESCRIBE"Es positivo"
+si no
+#ESCIBE"Es negativo"
 N=int(input("dame un numero"))
 if N>=0:
   print("es positivo")
