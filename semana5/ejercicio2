@@ -1,9 +1,9 @@
 #ALGORITMO
-#ESCRIBE"Dame la edad"
-si la edad es < 18 entrada
-#ESCRIBE"Puedes entrar a la discoteca"
+#ESCRIBE"Dame la nota"
+si la edad es < 3.0 entonces
+#ESCRIBE"Pasas la materia"
 si no
-#ESCIBE"no entra a la dsicoteca
+#ESCIBE"No pasa la materia"
 N=float(input("dame la nota"))
 if N>=3.0:
   print("pasa la materia")
