@@ -1,3 +1,9 @@
+#ALGORITMO
+#ESCRIBE"Dame la edad"
+si la edad es <18 entonces
+#ESCRIBE"Entras a la discoteca "
+si no
+#ESCIBE"No entras a la discoteca"
 E=int(input("dame la edad"))
 if E>=18:
   print("puedes entrar a la discoteca")
