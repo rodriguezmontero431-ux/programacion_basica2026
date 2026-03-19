@@ -1,0 +1,17 @@
+#ALGORITMO
+#ESCRIBE "DAME EL VALOR DE LA COMPRA"
+#LEER EL VALOR DE LA COMPRA
+#SI LA COMPRA > 100000:MOSTRAR EL VALOR CON EL DESCUENTO DEL 15%
+#SI NO LA COMPRAR <=100000: MOSTRAR EL VALOR SIN DESCUENTO
+#MOSTRAR SIMPRE EL VALOR FINAL A PAGARR
+
+#PSEUDOCODIGO
+valor_compra=int(input("dame el valor de la:"))
+if valor_compra>100000:
+  valor_final=valor_compra*0.85
+  print(f"EL VALOR CON DESCUENTO DEL 15% ES:{valor_final}")
+else:
+  valor_final=valor_compra
+  print(f"EL VALOR SIN DESCUENTO ES:{valor_final}")
+
+  print(f"EL VALOR FINAL A PAGAR ES:{valor_final}")e
