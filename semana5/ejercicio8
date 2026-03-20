@@ -1,0 +1,18 @@
+#ALGORITMO
+#ESCRIBIR "Dame un numero del 1 a 3"
+#Si es 1
+#ESCRIBIR "Bandeja paisa"
+#Si es 2
+#ESCRIBIR "Ajiaco"
+#Si es 3
+#ESCRIBIR "Sancocho"
+
+
+#PSEUDOCODIGO
+Opcion=int(input("Dame un numero del 1 a 3"))
+if Opcion == 1:
+  print("Bandeja paisa")
+elif Opcion == 2:
+  print("Ajiaco")
+elif Opcion == 3:
+  print("Sancocho")
