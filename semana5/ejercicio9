@@ -9,6 +9,7 @@
 - >=30 Obesidad
 
 
+#PSEUDOCODIGO
 peso = float(input("Peso (kg): "))
 altura = float(input("Altura (m): "))
 imc = round(peso / (altura ** 2), 2)
