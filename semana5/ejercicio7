@@ -1,0 +1,32 @@
+#ALGORITMO
+#ESCRIBIR "Dame la temperatura"
+#LEER el numero
+#Si la temperatura es muy fria si es menor que 5C
+#ESCRIBIRN "Usa ropa de invierno"
+#Si la temperatura es fria entre 5 a 14C
+#ESCRIBIR "Usa ropa abrigadora"
+#Si la temperatura es templado entre 15 a 24C
+#ESCRIBIR "Usa ropa comoda"
+#Si la temperatura es caliente entre 25 a 34C
+#ESCRIBIR "Usa ropa de verano"
+#Si la temperatura es muy caliente si esta en 35 a mas
+#ESCRIBIR "Usa ropa hidratante"
+
+
+#PSEUDOCODIGO
+Temperatura=int(input("dame la temperatura"))
+if Temperatura < 5:
+  print("la temperatura es muy fria")
+  print("Usa ropa de invierno")
+elif Temperatura >= 5 and Temperatura <= 14:
+  print("la temperatura es fria")
+  print("Usa ropa agrigadora")
+elif Temperatura >= 15 and Temperatura <= 24:
+  print("la temperatura es templado")
+  print("Usa ropa comoda")
+elif Temperatura >= 25 and Temperatura <= 34:
+  print("la temperatura es caliente")
+  print("Usa ropa de verano")
+elif Temperatura >= 35:
+  print("la temperatura es muy caliente")
+  print("Usa ropa hidratante")
