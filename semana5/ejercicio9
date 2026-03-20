@@ -16,9 +16,9 @@ imc = round(peso / (altura ** 2), 2)
 
 if imc < 18.5:
     cat = "Bajo peso"
-elif imc <= 24.9:
+elif imc <= 29.0:
     cat = "Normal"
-elif imc <= 29.9:
+elif imc <= 30.0:
     cat = "Sobrepeso"
 else:
     cat = "Obesidad"ejercicio9
