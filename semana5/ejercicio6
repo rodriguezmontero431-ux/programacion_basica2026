@@ -1,0 +1,14 @@
+#ALGORITMO
+#ESCRIBE "Dame un numero"
+#LEER el numero
+#Si el numero es PAR si es divisible entre 2
+#ESCRIBIR "El numero es PAR"
+#Si el es IMPAR si no es divisible entre 2
+#ESCRIBIR "el numero es IMPAR"
+
+#PSEUDOCOGIGO
+Numero=int(input("dame un numero"))
+if Numero % 2 == 0:
+  print("el numero es par")
+else:
+  print("el numero es impar")
