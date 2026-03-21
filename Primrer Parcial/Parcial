@@ -1,0 +1,30 @@
+#ALGORITMO
+#ESCRIBIR "Hola, Dame tu nombre"
+#LEER el nombre
+#ESCRIBIR "Dame tu consumo mensual de agua en metros cubicos"
+#LEER el consumo
+#Si el comsumo es <=15 m3
+#ESCRIBIR "Basjo consumo"
+#Si el consumo es <=30 m3
+#ESCRIBIR "Consumo normal"
+#Si el consumo es >30 m3
+#Escribir "Alto consumo"
+#Si el consumo es 0 o negativo
+#ESCRIBIR "Dato invalido"
+
+
+#PSEUDOCODIGO
+Nombre=input("Hola,Dame tu nombre")
+Consumo=int(input("Dame tu consumo mensual de agua en metros cubicos"))
+if Consumo >=1 and Consumo <=15:
+  print("Bajo consumo")
+  print("Exelente eres un ususario responsable del agua")
+elif Consumo >=15 and Consumo <= 30:
+  print("Consumo normal")
+  print("Tu consumo esta dentro del promedio del hogar")
+elif Consumo > 30:
+  print("Alto consumo")
+  print("Atencion tu consumo es alto revisaposibles fugas")
+else:
+  Consumo == 0 or Consumo <0 
+  print("Dato invalido")
