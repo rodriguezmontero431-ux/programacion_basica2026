@@ -1,0 +1,21 @@
+#ALGORITMO PERMISO_CONDUCIR
+#Escribir "Ingresar tu edad"
+#Leer edad
+#Escribir "tienes licencia vigente?"(si/no)
+#Leer tiene_licencia
+#si la edad >= 18 y tiene_ licencia="si"entonces
+#Escribir "puedes conducir.maneja concuidado"
+#si no
+#Escribir "No puedes conducir"
+#FinALGORITMO
+
+
+
+#PSEUDOCODIGO
+edad=int(input("ingresa tu edad"))
+licencia=input("tienes licencia vigente")
+if la edad es >or== a 18 and tiene_licencia= si:
+  print("puedes conducir")
+  print("Maneja con cuidado")
+else:
+  print("No puedes conducir")
