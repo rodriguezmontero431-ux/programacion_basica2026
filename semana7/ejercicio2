@@ -1,0 +1,19 @@
+#ALGORITMO ACCESO_SISTEMA
+#Escribir "usuario
+# Leer usuario"
+#Escribir "contraseña" 
+# Leer contraseña
+#si usuario= "admin"y contraseña= "1234"entonces
+#Escribir "Acceso concedido. Bienvenido"
+#Sino 
+#Escribir "Acceso denegado. Datos incorrectos"
+#FinALGORITMO 
+
+
+
+#PSEUDOCODIGO
+usuario=input("ingresa tu usuario")
+contraseña=input("ingresar tu contraseña")
+if usuario == "admin" and contraseña == "1234":
+    print("Acceso concedido")
+    print("Bienvenida")
