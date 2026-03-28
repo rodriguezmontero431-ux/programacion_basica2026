@@ -1,0 +1,28 @@
+#ALGORITMO DESCUENTO_TIENDA
+#Escribir"Eres estudiante?"(Si/No)
+#Leer es_estudiante
+#Escribir "total de tu compra"
+#Leer total
+#Si es_estudiante = "si" o total >20000 Entonces"
+#descuento <- total *0.15
+# total_final <- total - descuento 
+# Escribir "descuento aplicado del 15%!"
+# Escribir "desciuento: $",descuento
+# Escribir "total a pagar $", total_final
+# Sino
+# Escribir "Sin descuento. total: $", total
+
+
+
+
+#PSEUDOGODIGO
+estudiante=input("Eres estudiante?")
+total_compra=int(input("total de la compra"))
+if estudiante == "si" or total_compra >20000:
+    descuento <- total_compra *0.15
+    total_final<-total_compra - descuento
+    print("descuento aplicado del 15%")
+    print("descuento: $",descuento)
+    print("total a pagar $", total_final)
+else:
+    print("Sin descuento. total:$", total)
