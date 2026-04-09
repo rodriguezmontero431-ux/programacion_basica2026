@@ -1,0 +1,27 @@
+#ALGORITMO VIAJE_EXTERIOR
+#Escribir "Tienes pasaporte vigente?"(Si/No)
+#Leer pasaporte 
+#Escribirn "Tienes visa?"(Si/No)
+#Leer visa
+#Escribir "Tu pais esta exento de visa?"(Si/No)
+#Leer exento
+#Si pasaporte="si"y (visa= "si"o exento ="si")Entonces
+#Escribir "Puedes viajar. Buen viaje"
+#Sino
+#Escribir "No puedes viajar.revisa tus documentos"
+#FinALGORITMO
+
+
+
+
+#PSEUDOGODIGO
+pasaporte=input("tienes pasaporte vigente?")
+visa=input("tienes visa")
+pais=input("entu pais se resquiere visa?: si/no")
+exento=input("tu pais esta exento de visa")
+if pasaporte == "Si" and (visa =="si"or exento =="no"):
+    print("Puedes viajar")
+    print("Buen viaje")
+else:
+    print("No puedes viajar")
+    print("Revisa tus documentos")
