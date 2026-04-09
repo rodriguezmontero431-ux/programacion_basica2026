@@ -1,0 +1,33 @@
+#Algoritmo temperatura
+#Escribir 'Temperatura en grados Celsius:'
+#Leer temp
+#Si temp < 0 Entonces
+#Escribir 'BAJO CERO: congelacion'
+#SiNo
+#Si temp >= 0 Y temp < 15 Entonces
+#Escribir 'FRIA'
+#SiNo
+#Si temp >= 15 Y temp <= 25 Entonces
+#Escribir 'TEMPLADA: temperatura ideal'
+#SiNo
+#Si temp > 25 Y temp <= 35 Entonces
+#Escribir 'CALIDA'
+#SiNo
+#Escribir 'EXTREMO CALOR'
+
+
+#PSEUDOCODIGO
+temp=int(input("Temperatura en grados Celsius:"))
+if temp <= 0:
+    print("BAJO CERO")
+    print("congelacion")
+elif temp >= 1 and temp < 15:
+    print("FRIA")
+elif temp >= 15 and temp <= 25:
+    print("TEMPLADA") 
+    print("temperatura ideal")      
+elif temp > 25 and temp <= 35:
+    print("CALIDA")
+else:
+    temp > 35
+    print("EXTREMO CALOR")
